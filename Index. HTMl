@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TikTok Downloader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #111827;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+            padding: 40px 15px;
+        }
+        .box {
+            background: #1f2937;
+            padding: 30px;
+            border-radius: 20px;
+            max-width: 400px; in
+            margin: auto;
+        }
+        h1 {
+            color: #25f4ee;
+        }
+        input {
+            width: 90%;
+            padding: 14px;
+            border-radius: 10px;
+            border: none;
+            margin: 15px 0;
+        }
+        button {
+            background: #fe2c55;
+            color: white;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>TikTok Downloader</h1>
+        <p>Download your favorite videos</p>
+        <input type="text" placeholder="Paste TikTok video link here">
+        <br>
+        <button onclick="alert('Downloader service coming soon!')">
+            Download Video
+        </button>
+    </div>
+</body>
+</html>
